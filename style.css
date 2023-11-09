@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  background-color: #c59eff;
+  padding: 0px;
+}
+
+.filmy {
+  width: 200px;
+  height: 300px;
+}
+
+.filmy2 {
+  text-align: center;
+  align-content: center;
+  float: left;
+  width: 250px;
+}
+h1{
+  font-size: 30px;
+}
+p{
+  font-size: 16px;
+}
+
+#footerr{
+
+  background-color: #4c0aad;
+}
+footer {
+    background: #4c0aad;
+    height: 50px;
+  text-align: center;
+  align-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+#pasek{
+  background-color: #ffabed;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.podstrony{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+  text-shadow: 2px 0 #cc029a, -2px 0 #cc029a, 0 2px #cc029a, 0 -2px #cc029a,
+             1px 1px #cc029a, -1px -1px #cc029a, 1px -1px #cc029a, -1px 1px #cc029a;
+  font-size: 20px;
+}
+#filmy-1{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+#kontakt{
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
